@@ -16,6 +16,8 @@ module.exports = {
         netural: "#E5E5E5",
         "gradient-first": "#00F5A0",
         "gradient-second": "#00D9F5",
+        "card-bg": "#222525",
+        "title-color": "#D9F2F2",
       },
     },
   },

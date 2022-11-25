@@ -13,6 +13,7 @@ module.exports = {
       colors: {
         primary: "#041F31",
         secondary: "#BDEBEA",
+        netural: "#E5E5E5",
         "gradient-first": "#00F5A0",
         "gradient-second": "#00D9F5",
       },

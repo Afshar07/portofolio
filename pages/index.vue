@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-24 w-full">
+  <div class="mt-16 w-full">
     <MainAboutMe></MainAboutMe>
   </div>
 </template>

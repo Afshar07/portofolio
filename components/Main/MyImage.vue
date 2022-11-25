@@ -5,7 +5,7 @@
     <img src="/plant.png" class="absolute right-0 w-1/5 bottom-[6px]" alt="" />
     <img src="/desk.png" alt="" />
     <img src="/chair.png" class="absolute bottom-[6px] left-8" alt="" />
-    <img src="/me.png" class="absolute bottom-[6px] left-16" alt="" />
+    <img src="/me.png" class="absolute bottom-[6px] left-4 md:left-16" alt="" />
     <img src="/laptop.png" class="absolute bottom-[6px] right-14" alt="" />
   </div>
 </template>

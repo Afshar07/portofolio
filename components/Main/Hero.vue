@@ -1,13 +1,13 @@
 <template>
-  <div class="w-full flex items-center text-white">
-    <div class="w-1/2">
-      <h2 class="text-xl">WEB DEVELOPER</h2>
+  <div class="w-full flex flex-col md:flex-row items-center text-white">
+    <div class="w-full order-2 md:order-1 md:w-1/2">
+      <h2 class="text-xl text-center md:text-left">FRONTEND DEVELOPER</h2>
       <h1
-        class="text-6xl my-3 text-transparent bg-clip-text bg-gradient-to-r from-gradient-first to-gradient-second"
+        class="text-6xl text-center md:text-left my-3 text-transparent bg-clip-text bg-gradient-to-r from-gradient-first to-gradient-second"
       >
         Amir Afshar
       </h1>
-      <p class="text-secondary mt-10">
+      <p class="text-secondary mt-10 text-center md:text-left">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
         deserunt eligendi vitae eaque libero non, distinctio fugiat. Ut dicta
         saepe reprehenderit veniam? Provident iusto labore voluptate sint iure
@@ -15,20 +15,24 @@
         cumque cupiditate commodi, eum ipsum dolore ut dolorem accusantium porro
         beatae aperiam.
       </p>
-      <button
-        type="button"
-        class="mt-3 px-5 py-3 bg-gradient-to-r from-gradient-first to-gradient-second rounded-md text-primary"
-      >
-        Contact Me
-      </button>
+      <div class="w-full flex items-center justify-center md:justify-start">
+        <button
+          type="button"
+          class="mt-3 px-5 py-3 bg-gradient-to-r from-gradient-first to-gradient-second rounded-md text-primary"
+        >
+          Contact Me
+        </button>
+      </div>
     </div>
-    <div class="w-1/2">
-      <div class="images w-[500px] h-[500px] flex items-center justify-center">
+    <div class="w-full md:w-1/2 order-1 md:order-2">
+      <div
+        class="images w-full mb-16 md:mb-0 md:w-[500px] md:h-[500px] flex items-center justify-center"
+      >
         <MainMyImage></MainMyImage>
       </div>
     </div>
   </div>
-  <div class="w-full flex items-center justify-center">
+  <div class="w-full md:flex items-center justify-center hidden">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
